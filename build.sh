@@ -1,3 +1,14 @@
 #!/usr/bin/env bash
 
-r7r-plugin-packer --output=kch42_gravatar.rpk --codefile=plugin.php --classname=kch42_gravatar --pluginname=kch42_gravatar --author='Laria Carolin Chabowski <laria@laria.me>' --versiontext="0.6" --versioncount=2 --api=5 --shortdesc="kch42_gravatar allows you to display [Gravatars](http://de.gravatar.com)" --helpfile=help.html --licensefile=COPYING
+r7r-plugin-packer \
+    --output=gravatar.rpk \
+    --codefile=plugin.php \
+    --classname=gravatar \
+    --pluginname=gravatar \
+    --author='Laria Carolin Chabowski <laria@laria.me>' \
+    --versiontext="0.6.1" \
+    --versioncount=3 \
+    --api=5 \
+    --shortdesc="This plugin allows you to display [Gravatars](http://de.gravatar.com)" \
+    --helpfile=help.html \
+    --licensefile=COPYING

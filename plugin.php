@@ -1,11 +1,11 @@
 <?php
 
-class kch42_gravatar extends RatatoeskrPlugin
+class gravatar extends RatatoeskrPlugin
 {
-	public function ste_tag_kch42_gravatar($ste, $params, $sub)
+	public function ste_tag_gravatar($ste, $params, $sub)
 	{
 		if(!isset($params["comment"]))
-			throw new \ste\RuntimeError("ste:kch42_gravatar needs the comment parameter.");
+			throw new \ste\RuntimeError("ste:gravatar needs the comment parameter.");
 
 		$ste_comment = $ste->get_var_by_name($params["comment"]);
 
@@ -35,6 +35,6 @@ class kch42_gravatar extends RatatoeskrPlugin
 
 	public function init()
 	{
-		$this->ste->register_tag("kch42_gravatar", array($this, "ste_tag_kch42_gravatar"));
+		$this->ste->register_tag("gravatar", array($this, "ste_tag_gravatar"));
 	}
 }
