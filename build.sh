@@ -6,8 +6,8 @@ r7r-plugin-packer \
     --classname=gravatar \
     --pluginname=gravatar \
     --author='Laria Carolin Chabowski <laria@laria.me>' \
-    --versiontext="0.6.1" \
-    --versioncount=3 \
+    --versiontext="0.6.2" \
+    --versioncount=4 \
     --api=5 \
     --shortdesc="This plugin allows you to display [Gravatars](http://de.gravatar.com)" \
     --helpfile=help.html \
